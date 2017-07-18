@@ -1,6 +1,7 @@
 var restify = require('restify');
 var builder = require('botbuilder');
 var http = require('http');
+require('dotenv').config();
 
 //http://localhost:3978/api/messages default when hosted locally
 
